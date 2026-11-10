@@ -11,6 +11,14 @@
   "top_value": 23.141,
   "unit": "kWh/100 mi"
  },
+ "computed_from": {
+  "price_kwh": {
+   "as_of": "2026-08",
+   "label": "EIA residential average, U.S. Total",
+   "source": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+   "value": 0.1816
+  }
+ },
  "criteria": [
   {
    "direction": "lower",
@@ -62,6 +70,9 @@
    "best_for_key": "kwh100",
    "brand": "Lucid",
    "id": "lucid-air-pure-rwd-with-19-inch-wheels-2027",
+   "inputs": {
+    "combE": 23.141
+   },
    "name": "Lucid Air Pure RWD with 19 inch wheels (2027)",
    "rank": 1,
    "score": 100.0,
@@ -85,6 +96,9 @@
    "best_for_key": "kwh100",
    "brand": "Tesla",
    "id": "tesla-model-3-standard-rwd-2026",
+   "inputs": {
+    "combE": 24.3033
+   },
    "name": "Tesla Model 3 Standard RWD (2026)",
    "rank": 2,
    "score": 94.3,
@@ -108,6 +122,9 @@
    "best_for_key": "kwh100",
    "brand": "Tesla",
    "id": "tesla-model-y-standard-rwd-18in-wheels-2026",
+   "inputs": {
+    "combE": 24.3451
+   },
    "name": "Tesla Model Y Standard RWD (18in Wheels, 2026)",
    "rank": 3,
    "score": 94.1,
@@ -129,6 +146,9 @@
   {
    "brand": "Hyundai",
    "id": "hyundai-ioniq-6-standard-range-2025",
+   "inputs": {
+    "combE": 25.0
+   },
    "name": "Hyundai Ioniq 6 Standard Range (2025)",
    "rank": 4,
    "score": 90.8,
@@ -151,6 +171,9 @@
   {
    "brand": "Toyota",
    "id": "toyota-bz-2027",
+   "inputs": {
+    "combE": 25.5044
+   },
    "name": "Toyota bZ (2027)",
    "rank": 5,
    "score": 89.9,
@@ -172,6 +195,9 @@
   {
    "brand": "Subaru",
    "id": "subaru-uncharted-2027",
+   "inputs": {
+    "combE": 25.6644
+   },
    "name": "Subaru Uncharted (2027)",
    "rank": 6,
    "score": 89.3,
@@ -195,6 +221,9 @@
    "best_for_key": "range",
    "brand": "Audi",
    "id": "audi-a6-e-tron-ultra-2027",
+   "inputs": {
+    "combE": 26.463
+   },
    "name": "Audi A6 e-tron ultra (2027)",
    "rank": 7,
    "score": 87.8,
@@ -216,6 +245,9 @@
   {
    "brand": "Lexus",
    "id": "lexus-rz-350e-fwd-18-inch-wheels-2026",
+   "inputs": {
+    "combE": 26.5957
+   },
    "name": "Lexus RZ 350e FWD (18 inch wheels, 2026)",
    "rank": 8,
    "score": 86.2,
@@ -240,6 +272,9 @@
    "best_for_key": "range",
    "brand": "Mercedes-Benz",
    "id": "mercedes-benz-cla250-plus-with-eq-tech-r22-2027",
+   "inputs": {
+    "combE": 27.0
+   },
    "name": "Mercedes-Benz CLA250 Plus with EQ Tech (R22, 2027)",
    "rank": 9,
    "score": 85.9,
@@ -261,6 +296,9 @@
   {
    "brand": "Lexus",
    "id": "lexus-es-350e-19-inch-wheels-2026",
+   "inputs": {
+    "combE": 27.0
+   },
    "name": "Lexus ES 350e (19 inch Wheels, 2026)",
    "rank": 10,
    "score": 85.1,
