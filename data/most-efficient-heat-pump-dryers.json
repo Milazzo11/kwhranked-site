@@ -181,8 +181,6 @@
    }
   },
   {
-   "best_for": "a shorter certified test cycle",
-   "best_for_key": "cycle",
    "brand": "LG",
    "certified_as": "LG DLHC4002",
    "id": "lg-dlhc4002",
@@ -210,33 +208,6 @@
    }
   },
   {
-   "brand": "LG",
-   "certified_as": "LG DLHC8402",
-   "id": "lg-dlhc8402",
-   "inputs": {
-    "estimated_annual_energy_use_kwh_yr": 257.0
-   },
-   "name": "LG DLHC8402W",
-   "rank": 6,
-   "score": 83.9,
-   "sold_as": {
-    "as_of": "2026-11-05",
-    "brand": "LG",
-    "listing_source": "https://www.lg.com/us/washers-dryers/lg-dlhc8402w-electric-dryer",
-    "name": "DLHC8402W",
-    "source": "https://www.lg.com/us/washers-dryers/lg-dlhc8402w-electric-dryer",
-    "url": "https://www.lg.com/us/washers-dryers/lg-dlhc8402w-electric-dryer"
-   },
-   "spec_source": "ENERGY STAR Certified Residential Clothes Dryers dataset (U.S. EPA, data.energystar.gov t9u7-4d2j), record 4517800, retrieved 2026-11-05; sold as LG DLHC8402W per https://www.lg.com/us/washers-dryers/lg-dlhc8402w-electric-dryer (2026-11-05); buy link https://www.lg.com/us/washers-dryers/lg-dlhc8402w-electric-dryer per https://www.lg.com/us/washers-dryers/lg-dlhc8402w-electric-dryer (2026-11-05)",
-   "specs": {
-    "cef": 9.3,
-    "cost5": 233.0,
-    "cycle": 75.0,
-    "drum": 7.3,
-    "kwh": 257.0
-   }
-  },
-  {
    "brand": "Asko",
    "certified_as": "Asko T411HS.W.U",
    "id": "asko-t411hs-w-u",
@@ -244,7 +215,7 @@
     "estimated_annual_energy_use_kwh_yr": 263.0
    },
    "name": "Asko T411HS.W.U",
-   "rank": 7,
+   "rank": 6,
    "score": 81.9,
    "sold_as": {
     "as_of": "2026-11-05",
@@ -265,7 +236,7 @@
   }
  ],
  "license": "https://creativecommons.org/licenses/by/4.0/",
- "method": "We filtered every ENERGY STAR certified residential clothes dryer to those whose certification record flags heat pump technology (hybrid heat pump models excluded), kept the full-size ventless models only (compact dryers are certified on a smaller test load, so their yearly kWh is not comparable), merged identical models sold under several brand names, and ranked on certified Combined Energy Factor (CEF, 95% of the score); the shorter DOE test cycle makes up the other 5%, so dryers with the same CEF are ordered by cycle length. Yearly kWh is ENERGY STAR's own estimate for DOE's 283 test loads; we price it at the EIA U.S. average residential rate and multiply by five. We did not test any dryer. A dryer that dries faster in the DOE test can still take longer in your home: the test uses a fixed load and moisture target. The Midea MLE27N5AWWC certifies a CEF of 10.14 as a standard ventless dryer but its record carries no heat pump flag; we follow the record and leave it out. The LG WashTower stacked dryer is also certified but is left out of the ranking because LG lists it as discontinued. The Beko HPD24414W and the Blomberg DHP24404W3 listed near the top appear to be the same Arcelik machine in an earlier and a later revision (this page's sold-as record lists the later number as also sold as the Beko model); ENERGY STAR certifies them separately and their certified figures differ only in test cycle length, so treat them as one choice. The LG DLHC5502 and DLHC6702 are certified heat pump dryers that are not ranked because we could not confirm their seller page.",
+ "method": "We filtered every ENERGY STAR certified residential clothes dryer to those whose certification record flags heat pump technology (hybrid heat pump models excluded), kept the full-size ventless models only (compact dryers are certified on a smaller test load, so their yearly kWh is not comparable), merged identical models sold under several brand names, and ranked on certified Combined Energy Factor (CEF, 95% of the score); the shorter DOE test cycle makes up the other 5%, so dryers with the same CEF are ordered by cycle length. Yearly kWh is ENERGY STAR's own estimate for DOE's 283 test loads; we price it at the EIA U.S. average residential rate and multiply by five. We did not test any dryer. A dryer that dries faster in the DOE test can still take longer in your home: the test uses a fixed load and moisture target. The Midea MLE27N5AWWC certifies a CEF of 10.14 as a standard ventless dryer but its record carries no heat pump flag; we follow the record and leave it out. The LG WashTower stacked dryer is also certified but is left out of the ranking because LG lists it as discontinued. The Beko HPD24414W and the Blomberg DHP24404W3 listed near the top appear to be the same Arcelik machine in an earlier and a later revision (this page's sold-as record lists the later number as also sold as the Beko model); ENERGY STAR certifies them separately and their certified figures differ only in test cycle length, so their order here rests on that cycle difference alone and the two are effectively one choice. The LG DLHC5502 and DLHC6702 are certified heat pump dryers that are not ranked because we could not confirm their seller page.",
  "name": "The most efficient full-size heat pump dryers, ranked by certified CEF with the yearly cost to run",
  "next_refresh": "2026-12-05",
  "publisher": "kWh Ranked",
@@ -292,14 +263,15 @@
    }
   ],
   "label": "Combined Energy Factor",
-  "listed": 7,
+  "listed": 6,
   "listings": 23,
   "merge": "listings with identical values on this page's 5 criteria, across brands",
+  "not_in_stock": 1,
   "pool": 11,
   "pool_unit": "distinct certified products",
   "tied_beyond_cut": 0,
   "unit": "lb/kWh",
-  "unranked": 2
+  "unranked": 3
  },
  "sources": [
   "https://data.energystar.gov/d/t9u7-4d2j",
@@ -345,6 +317,23 @@
     "kwh": 252.0
    },
    "value": 9.5
+  },
+  {
+   "as_of": "2026-11-10",
+   "ids": [
+    "DLHC8402"
+   ],
+   "listing_state": "not_in_stock",
+   "name": "LG DLHC8402",
+   "note": "No in-stock LG listing for this exact model could be confirmed on 2026-11-10 (the LG page offers only 'Notify Me', with no way to buy).",
+   "specs": {
+    "cef": 9.3,
+    "cost5": 233.0,
+    "cycle": 75.0,
+    "drum": 7.3,
+    "kwh": 257.0
+   },
+   "value": 9.3
   }
  ],
  "updated": "2026-11-05",

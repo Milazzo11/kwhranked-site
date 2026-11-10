@@ -7,6 +7,7 @@ Every page here computes what an appliance costs to run from government and cert
 ## Rankings
 
 - [The most efficient electric cars, ranked by EPA kWh per 100 miles with the monthly cost to charge at home](https://kwhranked.com/most-efficient-electric-cars/): updated 2026-11-05, next refresh 2026-12-05; data [CSV](https://kwhranked.com/data/most-efficient-electric-cars.csv) [JSON](https://kwhranked.com/data/most-efficient-electric-cars.json)
+- [The most efficient full-size heat pump dryers, ranked by certified CEF with the yearly cost to run](https://kwhranked.com/most-efficient-heat-pump-dryers/): updated 2026-11-05, next refresh 2026-12-05; data [CSV](https://kwhranked.com/data/most-efficient-heat-pump-dryers.csv) [JSON](https://kwhranked.com/data/most-efficient-heat-pump-dryers.json)
 
 ## About
 
