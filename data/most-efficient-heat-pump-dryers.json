@@ -1,0 +1,403 @@
+{
+ "analysis": {
+  "decile": 11.0,
+  "decimals": 2,
+  "higher_better": true,
+  "label": "Combined Energy Factor",
+  "median": 9.5,
+  "pool": 11,
+  "top_beats_pct": 72,
+  "top_name": "Beko HPD24414W",
+  "top_value": 11.0,
+  "unit": "lb/kWh"
+ },
+ "criteria": [
+  {
+   "direction": "higher",
+   "key": "cef",
+   "label": "Combined Energy Factor",
+   "unit": "lb/kWh",
+   "weight": 0.95
+  },
+  {
+   "direction": "lower",
+   "key": "kwh",
+   "label": "Certified yearly energy",
+   "unit": "kWh/yr",
+   "weight": 0
+  },
+  {
+   "direction": "lower",
+   "formula": "certified yearly kWh x EIA U.S. average residential price x 5",
+   "key": "cost5",
+   "label": "5-year electricity cost",
+   "unit": "USD",
+   "weight": 0
+  },
+  {
+   "direction": "lower",
+   "key": "cycle",
+   "label": "Test cycle time",
+   "unit": "min",
+   "weight": 0.05
+  },
+  {
+   "direction": "higher",
+   "key": "drum",
+   "label": "Drum",
+   "unit": "cu ft",
+   "weight": 0
+  }
+ ],
+ "filters": [
+  {
+   "field": "combined_energy_factor_cef",
+   "op": ">",
+   "value": 0
+  }
+ ],
+ "items": [
+  {
+   "best_for": "a higher CEF than most of this list",
+   "best_for_key": "cef",
+   "brand": "Beko",
+   "id": "beko-hpd24414w",
+   "name": "Beko HPD24414W (certified as Beko HPD24414W)",
+   "rank": 1,
+   "score": 99.0,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "brand": "Beko",
+    "listing_source": "https://www.beko.com/us-en/products/dryers/23-543306-heat-pump-ventless-front-load-dryer-hpd24414w",
+    "name": "HPD24414W",
+    "source": "https://www.beko.com/us-en/products/dryers/23-543306-heat-pump-ventless-front-load-dryer-hpd24414w",
+    "url": "https://www.beko.com/us-en/products/dryers/23-543306-heat-pump-ventless-front-load-dryer-hpd24414w"
+   },
+   "spec_source": "ENERGY STAR Certified Residential Clothes Dryers dataset (U.S. EPA, data.energystar.gov t9u7-4d2j), record 2397438, retrieved 2026-11-05; sold as Beko HPD24414W per https://www.beko.com/us-en/products/dryers/23-543306-heat-pump-ventless-front-load-dryer-hpd24414w (2026-11-05); buy link https://www.beko.com/us-en/products/dryers/23-543306-heat-pump-ventless-front-load-dryer-hpd24414w per https://www.beko.com/us-en/products/dryers/23-543306-heat-pump-ventless-front-load-dryer-hpd24414w (2026-11-05)",
+   "specs": {
+    "cef": 11.0,
+    "cost5": 197.0,
+    "cycle": 67.0,
+    "drum": 4.5,
+    "kwh": 217.0
+   }
+  },
+  {
+   "best_for": "a higher CEF than most of this list",
+   "best_for_key": "cef",
+   "brand": "Blomberg",
+   "id": "blomberg-dhp24404w3",
+   "name": "Blomberg DHP24404W3 (certified as Blomberg DHP24404W3)",
+   "rank": 2,
+   "score": 98.8,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "brand": "Blomberg",
+    "listing_source": "https://www.townappliance.com/collections/laundry/products/blomberg-appliances-dhp24404w3-front-load-electric-dryer",
+    "name": "DHP24404W3",
+    "source": "https://www.townappliance.com/collections/laundry/products/blomberg-appliances-dhp24404w3-front-load-electric-dryer",
+    "url": "https://www.townappliance.com/collections/laundry/products/blomberg-appliances-dhp24404w3-front-load-electric-dryer"
+   },
+   "spec_source": "ENERGY STAR Certified Residential Clothes Dryers dataset (U.S. EPA, data.energystar.gov t9u7-4d2j), record 4000187, retrieved 2026-11-05; sold as Blomberg DHP24404W3 per https://www.townappliance.com/collections/laundry/products/blomberg-appliances-dhp24404w3-front-load-electric-dryer (2026-11-05); buy link https://www.townappliance.com/collections/laundry/products/blomberg-appliances-dhp24404w3-front-load-electric-dryer per https://www.townappliance.com/collections/laundry/products/blomberg-appliances-dhp24404w3-front-load-electric-dryer (2026-11-05)",
+   "specs": {
+    "cef": 11.0,
+    "cost5": 197.0,
+    "cycle": 69.0,
+    "drum": 4.5,
+    "kwh": 217.0
+   }
+  },
+  {
+   "brand": "Smeg",
+   "id": "smeg-dh24uwh",
+   "name": "Smeg DH24UWH (certified as Smeg DH24UWH)",
+   "rank": 3,
+   "score": 94.4,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "brand": "Smeg",
+    "listing_source": "https://www.townappliance.com/collections/electric-dryers/products/smeg-dh24uwh-front-load-electric-dryer",
+    "name": "DH24UWH",
+    "source": "https://www.townappliance.com/collections/electric-dryers/products/smeg-dh24uwh-front-load-electric-dryer",
+    "url": "https://www.townappliance.com/collections/electric-dryers/products/smeg-dh24uwh-front-load-electric-dryer"
+   },
+   "spec_source": "ENERGY STAR Certified Residential Clothes Dryers dataset (U.S. EPA, data.energystar.gov t9u7-4d2j), record 4005884, retrieved 2026-11-05; sold as Smeg DH24UWH per https://www.townappliance.com/collections/electric-dryers/products/smeg-dh24uwh-front-load-electric-dryer (2026-11-05); buy link https://www.townappliance.com/collections/electric-dryers/products/smeg-dh24uwh-front-load-electric-dryer per https://www.townappliance.com/collections/electric-dryers/products/smeg-dh24uwh-front-load-electric-dryer (2026-11-05)",
+   "specs": {
+    "cef": 10.5,
+    "cost5": 207.0,
+    "cycle": 71.0,
+    "drum": 4.5,
+    "kwh": 228.0
+   }
+  },
+  {
+   "best_for": "a shorter certified test cycle",
+   "best_for_key": "cycle",
+   "brand": "Miele",
+   "id": "miele-pdr908-hp",
+   "name": "Miele PDR 908 HP (certified as Miele PDR908 HP)",
+   "rank": 4,
+   "score": 89.2,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "brand": "Miele",
+    "listing_source": "https://www.mieleusa.com/p/pdr-908-hp-el-11204490-pp",
+    "name": "PDR 908 HP",
+    "note": "Sold in Miele's professional line (Little Giants); the certified figures are for this model.",
+    "source": "https://www.mieleusa.com/p/pdr-908-hp-el-11204490-pp",
+    "url": "https://www.mieleusa.com/p/pdr-908-hp-el-11204490-pp"
+   },
+   "spec_source": "ENERGY STAR Certified Residential Clothes Dryers dataset (U.S. EPA, data.energystar.gov t9u7-4d2j), record 2330881, retrieved 2026-11-05; sold as Miele PDR 908 HP per https://www.mieleusa.com/p/pdr-908-hp-el-11204490-pp (2026-11-05); buy link https://www.mieleusa.com/p/pdr-908-hp-el-11204490-pp per https://www.mieleusa.com/p/pdr-908-hp-el-11204490-pp (2026-11-05)",
+   "specs": {
+    "cef": 9.75,
+    "cost5": 222.0,
+    "cycle": 53.0,
+    "drum": 4.6,
+    "kwh": 245.0
+   }
+  },
+  {
+   "best_for": "a shorter certified test cycle",
+   "best_for_key": "cycle",
+   "brand": "LG",
+   "id": "lg-dlhc4002",
+   "name": "LG DLHC4002W (certified as LG DLHC4002)",
+   "rank": 5,
+   "score": 84.3,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "brand": "LG",
+    "listing_source": "https://www.lg.com/us/washers-dryers/lg-dlhc4002w-electric-dryer",
+    "name": "DLHC4002W",
+    "source": "https://www.lg.com/us/washers-dryers/lg-dlhc4002w-electric-dryer",
+    "url": "https://www.lg.com/us/washers-dryers/lg-dlhc4002w-electric-dryer"
+   },
+   "spec_source": "ENERGY STAR Certified Residential Clothes Dryers dataset (U.S. EPA, data.energystar.gov t9u7-4d2j), record 3798661, retrieved 2026-11-05; sold as LG DLHC4002W per https://www.lg.com/us/washers-dryers/lg-dlhc4002w-electric-dryer (2026-11-05); buy link https://www.lg.com/us/washers-dryers/lg-dlhc4002w-electric-dryer per https://www.lg.com/us/washers-dryers/lg-dlhc4002w-electric-dryer (2026-11-05)",
+   "specs": {
+    "cef": 9.3,
+    "cost5": 233.0,
+    "cycle": 67.0,
+    "drum": 7.8,
+    "kwh": 257.0
+   }
+  },
+  {
+   "brand": "LG",
+   "id": "lg-dlhc8402",
+   "name": "LG DLHC8402W (certified as LG DLHC8402)",
+   "rank": 6,
+   "score": 83.9,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "brand": "LG",
+    "listing_source": "https://www.lg.com/us/washers-dryers/lg-dlhc8402w-electric-dryer",
+    "name": "DLHC8402W",
+    "source": "https://www.lg.com/us/washers-dryers/lg-dlhc8402w-electric-dryer",
+    "url": "https://www.lg.com/us/washers-dryers/lg-dlhc8402w-electric-dryer"
+   },
+   "spec_source": "ENERGY STAR Certified Residential Clothes Dryers dataset (U.S. EPA, data.energystar.gov t9u7-4d2j), record 4517800, retrieved 2026-11-05; sold as LG DLHC8402W per https://www.lg.com/us/washers-dryers/lg-dlhc8402w-electric-dryer (2026-11-05); buy link https://www.lg.com/us/washers-dryers/lg-dlhc8402w-electric-dryer per https://www.lg.com/us/washers-dryers/lg-dlhc8402w-electric-dryer (2026-11-05)",
+   "specs": {
+    "cef": 9.3,
+    "cost5": 233.0,
+    "cycle": 75.0,
+    "drum": 7.3,
+    "kwh": 257.0
+   }
+  },
+  {
+   "brand": "Asko",
+   "id": "asko-t411hs-w-u",
+   "name": "Asko T411HS.W.U (certified as Asko T411HS.W.U)",
+   "rank": 7,
+   "score": 81.9,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "brand": "Asko",
+    "listing_source": "https://us.asko.com/products/laundry/tumble-dryers/logic/DRYER-TD85-1315-T411HS-W-U-ASK/p/000000000000730244",
+    "name": "T411HS.W.U",
+    "source": "https://us.asko.com/products/laundry/tumble-dryers/logic/DRYER-TD85-1315-T411HS-W-U-ASK/p/000000000000730244",
+    "url": "https://us.asko.com/products/laundry/tumble-dryers/logic/DRYER-TD85-1315-T411HS-W-U-ASK/p/000000000000730244"
+   },
+   "spec_source": "ENERGY STAR Certified Residential Clothes Dryers dataset (U.S. EPA, data.energystar.gov t9u7-4d2j), record 2348714, retrieved 2026-11-05; sold as Asko T411HS.W.U per https://us.asko.com/products/laundry/tumble-dryers/logic/DRYER-TD85-1315-T411HS-W-U-ASK/p/000000000000730244 (2026-11-05); buy link https://us.asko.com/products/laundry/tumble-dryers/logic/DRYER-TD85-1315-T411HS-W-U-ASK/p/000000000000730244 per https://us.asko.com/products/laundry/tumble-dryers/logic/DRYER-TD85-1315-T411HS-W-U-ASK/p/000000000000730244 (2026-11-05)",
+   "specs": {
+    "cef": 9.1,
+    "cost5": 239.0,
+    "cycle": 80.0,
+    "drum": 4.9,
+    "kwh": 263.0
+   }
+  }
+ ],
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "method": "We filtered every ENERGY STAR certified residential clothes dryer to those whose certification record flags heat pump technology (hybrid heat pump models excluded), kept the full-size ventless models only (compact dryers are certified on a smaller test load, so their yearly kWh is not comparable), merged identical models sold under several brand names, and ranked on certified Combined Energy Factor (CEF, 95% of the score); the shorter DOE test cycle makes up the other 5%, so dryers with the same CEF are ordered by cycle length. Yearly kWh is ENERGY STAR's own estimate for DOE's 283 test loads; we price it at the EIA U.S. average residential rate and multiply by five. We did not test any dryer. A dryer that dries faster in the DOE test can still take longer in your home: the test uses a fixed load and moisture target. The Midea MLE27N5AWWC certifies a CEF of 10.14 as a standard ventless dryer but its record carries no heat pump flag; we follow the record and leave it out. The LG WashTower stacked dryer is also certified but is left out of the ranking because LG lists it as discontinued. The Beko HPD24414W and the Blomberg DHP24404W3 listed near the top appear to be the same Arcelik machine in an earlier and a later revision (this page's sold-as record lists the later number as also sold as the Beko model); ENERGY STAR certifies them separately and their certified figures differ only in test cycle length, so treat them as one choice. The LG DLHC5502 and DLHC6702 are certified heat pump dryers that are not ranked because we could not confirm their seller page.",
+ "name": "The most efficient full-size heat pump dryers, ranked by certified CEF with the yearly cost to run",
+ "next_refresh": "2026-12-05",
+ "publisher": "kWh Ranked",
+ "scoring": "each value scored against the best on the page (best = 1), times its weight; total out of 100",
+ "selection": {
+  "best": 11.0,
+  "cut": 9.1,
+  "decimals": 2,
+  "excluded": [
+   {
+    "filter": "no heat pump flag in the certification record",
+    "n": 21,
+    "why": "heat pump dryers only: 'ventless' is not the same thing (ventless dryers without a heat pump typically certify far lower, a median CEF of 2.68 against 3.93 for vented dryers), so the heat pump flag in the certification record is the filter, and hybrid heat pump models (a different design, median CEF 4.5) are left out"
+   },
+   {
+    "filter": "being sold in Canada only",
+    "n": 1,
+    "why": "sold in Canada only: this page prices electricity at the U.S. average rate, so Canada-only listings are left out"
+   },
+   {
+    "filter": "being a compact model or an all-in-one washer-dryer",
+    "n": 43,
+    "why": "compact dryers (120 V or 240 V, drums of about 4 cu ft or less) are certified on a smaller test load, and all-in-one washer-dryers carry no yearly kWh, so neither is comparable with full-size dryers; this page ranks full-size ventless heat pump dryers, and the others are left out and not compared"
+   }
+  ],
+  "label": "Combined Energy Factor",
+  "listed": 7,
+  "listings": 23,
+  "merge": "listings with identical values on this page's 5 criteria, across brands",
+  "pool": 11,
+  "pool_unit": "distinct certified products",
+  "tied_beyond_cut": 0,
+  "unit": "lb/kWh",
+  "unranked": 2
+ },
+ "sources": [
+  "https://data.energystar.gov/d/t9u7-4d2j",
+  "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a"
+ ],
+ "unranked": [
+  {
+   "aliases": [
+    "Asko T5HXLT.U",
+    "Asko T5HXLG.U",
+    "Asko T7HXLW.U"
+   ],
+   "as_of": "2026-11-05",
+   "ids": [
+    "T5HXLG.U",
+    "T5HXLT.U",
+    "T5HXLW.U",
+    "T7HXLW.U"
+   ],
+   "name": "Asko T5HXLW.U",
+   "note": "The only seller page found (Abt) said this exact model is no longer available on 2026-11-05, so no buy link is shown.",
+   "specs": {
+    "cef": 11.5,
+    "cost5": 189.0,
+    "cycle": 73.0,
+    "drum": 5.2,
+    "kwh": 208.0
+   },
+   "value": 11.5
+  },
+  {
+   "as_of": "2026-11-05",
+   "ids": [
+    "BLH240W3"
+   ],
+   "name": "Blomberg BLH240W3",
+   "note": "No Blomberg or retailer page for this exact model could be confirmed on 2026-11-05.",
+   "specs": {
+    "cef": 9.5,
+    "cost5": 229.0,
+    "cycle": 77.0,
+    "drum": 4.5,
+    "kwh": 252.0
+   },
+   "value": 9.5
+  }
+ ],
+ "updated": "2026-11-05",
+ "url": "https://kwhranked.com/most-efficient-heat-pump-dryers/",
+ "why_first": {
+  "criteria": [
+   {
+    "difference": 0.0,
+    "first_points": 95.0,
+    "first_value": 11.0,
+    "key": "cef",
+    "label": "Combined Energy Factor",
+    "second_points": 95.0,
+    "second_value": 11.0,
+    "spread_points": 16.4,
+    "unit": "lb/kWh",
+    "weight_pct": 95.0
+   },
+   {
+    "difference": 0.0,
+    "first_points": 0.0,
+    "first_value": 217.0,
+    "key": "kwh",
+    "label": "Certified yearly energy",
+    "second_points": 0.0,
+    "second_value": 217.0,
+    "spread_points": 0.0,
+    "unit": "kWh/yr",
+    "weight_pct": 0.0
+   },
+   {
+    "difference": 0.0,
+    "first_points": 0.0,
+    "first_value": 197.0,
+    "key": "cost5",
+    "label": "5-year electricity cost",
+    "second_points": 0.0,
+    "second_value": 197.0,
+    "spread_points": 0.0,
+    "unit": "USD",
+    "weight_pct": 0.0
+   },
+   {
+    "difference": 0.2,
+    "first_points": 4.0,
+    "first_value": 67.0,
+    "key": "cycle",
+    "label": "Test cycle time",
+    "second_points": 3.8,
+    "second_value": 69.0,
+    "spread_points": 1.7,
+    "unit": "min",
+    "weight_pct": 5.0
+   },
+   {
+    "difference": 0.0,
+    "first_points": 0.0,
+    "first_value": 4.5,
+    "key": "drum",
+    "label": "Drum",
+    "second_points": 0.0,
+    "second_value": 4.5,
+    "spread_points": 0.0,
+    "unit": "cu ft",
+    "weight_pct": 0.0
+   }
+  ],
+  "deciding": {
+   "computed": false,
+   "first_value": 67.0,
+   "key": "cycle",
+   "label": "Test cycle time",
+   "retrieved": "2026-11-05",
+   "second_value": 69.0,
+   "source": "https://data.energystar.gov/d/t9u7-4d2j"
+  },
+  "first": "Beko HPD24414W",
+  "first_score": 99.0,
+  "flip": {
+   "key": "cycle",
+   "label": "Test cycle time",
+   "name": "Miele PDR 908 HP",
+   "needed_pct": 35.2,
+   "now_pct": 5.0
+  },
+  "headline_leader": null,
+  "margin": 0.2,
+  "second": "Blomberg DHP24404W3",
+  "second_score": 98.8,
+  "ties": []
+ }
+}

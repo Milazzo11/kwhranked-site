@@ -1,0 +1,397 @@
+{
+ "analysis": {
+  "decile": 27.0,
+  "decimals": 1,
+  "higher_better": false,
+  "label": "Energy use",
+  "median": 32.4863,
+  "pool": 91,
+  "top_beats_pct": 98,
+  "top_name": "Lucid Air Pure RWD with 19 inch wheels (2027)",
+  "top_value": 23.141,
+  "unit": "kWh/100 mi"
+ },
+ "criteria": [
+  {
+   "direction": "lower",
+   "key": "kwh100",
+   "label": "Energy use",
+   "unit": "kWh/100 mi",
+   "weight": 0.95
+  },
+  {
+   "direction": "higher",
+   "key": "range",
+   "label": "Rated range",
+   "unit": "mi",
+   "weight": 0.05
+  },
+  {
+   "direction": "lower",
+   "formula": "EPA kWh per 100 miles x 10 (1,000 miles a month) x EIA U.S. average residential price",
+   "key": "month",
+   "label": "Home charging cost per month",
+   "unit": "USD",
+   "weight": 0
+  },
+  {
+   "direction": "lower",
+   "key": "penalty",
+   "label": "Spread across this model's configurations",
+   "unit": "kWh/100 mi",
+   "weight": 0
+  },
+  {
+   "direction": "lower",
+   "key": "configs",
+   "label": "Variants merged into this row",
+   "unit": "",
+   "weight": 0
+  }
+ ],
+ "filters": [
+  {
+   "field": "combE",
+   "op": ">",
+   "value": 0
+  }
+ ],
+ "items": [
+  {
+   "best_for": "fewer kWh per mile than this page's average",
+   "best_for_key": "kwh100",
+   "brand": "Lucid",
+   "id": "lucid-air-pure-rwd-with-19-inch-wheels-2027",
+   "name": "Lucid Air Pure RWD with 19 inch wheels (2027)",
+   "rank": 1,
+   "score": 100.0,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "seller": "Lucid Motors",
+    "source": "https://lucidmotors.com/air-pure",
+    "url": "https://lucidmotors.com/air-pure"
+   },
+   "spec_source": "EPA/DOE fueleconomy.gov Vehicle Fuel Economy Data (vehicles.csv, battery-electric, model year 2025 and later), record 50846, retrieved 2026-11-05; buy link https://lucidmotors.com/air-pure per https://lucidmotors.com/air-pure (2026-11-05)",
+   "specs": {
+    "configs": 2.0,
+    "kwh100": 23.141,
+    "month": 42.0,
+    "penalty": 2.9607,
+    "range": 420.0
+   }
+  },
+  {
+   "best_for": "fewer kWh per mile than this page's average",
+   "best_for_key": "kwh100",
+   "brand": "Tesla",
+   "id": "tesla-model-3-standard-rwd-2026",
+   "name": "Tesla Model 3 Standard RWD (2026)",
+   "rank": 2,
+   "score": 94.3,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "seller": "Tesla",
+    "source": "https://www.tesla.com/model3",
+    "url": "https://www.tesla.com/model3"
+   },
+   "spec_source": "EPA/DOE fueleconomy.gov Vehicle Fuel Economy Data (vehicles.csv, battery-electric, model year 2025 and later), record 50251, retrieved 2026-11-05; buy link https://www.tesla.com/model3 per https://www.tesla.com/model3 (2026-11-05)",
+   "specs": {
+    "configs": 4.0,
+    "kwh100": 24.3033,
+    "month": 44.0,
+    "penalty": 1.3451,
+    "range": 321.0
+   }
+  },
+  {
+   "best_for": "fewer kWh per mile than this page's average",
+   "best_for_key": "kwh100",
+   "brand": "Tesla",
+   "id": "tesla-model-y-standard-rwd-18in-wheels-2026",
+   "name": "Tesla Model Y Standard RWD (18in Wheels, 2026)",
+   "rank": 3,
+   "score": 94.1,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "seller": "Tesla",
+    "source": "https://www.tesla.com/modely",
+    "url": "https://www.tesla.com/modely"
+   },
+   "spec_source": "EPA/DOE fueleconomy.gov Vehicle Fuel Economy Data (vehicles.csv, battery-electric, model year 2025 and later), record 50040, retrieved 2026-11-05; buy link https://www.tesla.com/modely per https://www.tesla.com/modely (2026-11-05)",
+   "specs": {
+    "configs": 3.0,
+    "kwh100": 24.3451,
+    "month": 44.0,
+    "penalty": 2.518,
+    "range": 321.0
+   }
+  },
+  {
+   "brand": "Hyundai",
+   "id": "hyundai-ioniq-6-standard-range-2025",
+   "name": "Hyundai Ioniq 6 Standard Range (2025)",
+   "rank": 4,
+   "score": 90.8,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "note": "Maker model page, checked 2026-11-05; it does not show this trim or wheel size, which come from the EPA record.",
+    "seller": "Hyundai",
+    "source": "https://www.hyundaiusa.com/us/en/vehicles/ioniq-6",
+    "url": "https://www.hyundaiusa.com/us/en/vehicles/ioniq-6"
+   },
+   "spec_source": "EPA/DOE fueleconomy.gov Vehicle Fuel Economy Data (vehicles.csv, battery-electric, model year 2025 and later), record 48364, retrieved 2026-11-05; buy link https://www.hyundaiusa.com/us/en/vehicles/ioniq-6 per https://www.hyundaiusa.com/us/en/vehicles/ioniq-6 (2026-11-05)",
+   "specs": {
+    "configs": 3.0,
+    "kwh100": 25.0,
+    "month": 45.0,
+    "penalty": 4.7709,
+    "range": 240.0
+   }
+  },
+  {
+   "brand": "Toyota",
+   "id": "toyota-bz-2027",
+   "name": "Toyota bZ (2027)",
+   "rank": 5,
+   "score": 89.9,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "seller": "Toyota",
+    "source": "https://www.toyota.com/bz/",
+    "url": "https://www.toyota.com/bz/"
+   },
+   "spec_source": "EPA/DOE fueleconomy.gov Vehicle Fuel Economy Data (vehicles.csv, battery-electric, model year 2025 and later), record 50864, retrieved 2026-11-05; buy link https://www.toyota.com/bz/ per https://www.toyota.com/bz/ (2026-11-05)",
+   "specs": {
+    "configs": 5.0,
+    "kwh100": 25.5044,
+    "month": 46.0,
+    "penalty": 1.9836,
+    "range": 314.0
+   }
+  },
+  {
+   "brand": "Subaru",
+   "id": "subaru-uncharted-2027",
+   "name": "Subaru Uncharted (2027)",
+   "rank": 6,
+   "score": 89.3,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "seller": "Subaru",
+    "source": "https://www.subaru.com/vehicles/uncharted/2027.html",
+    "url": "https://www.subaru.com/vehicles/uncharted/2027.html"
+   },
+   "spec_source": "EPA/DOE fueleconomy.gov Vehicle Fuel Economy Data (vehicles.csv, battery-electric, model year 2025 and later), record 50693, retrieved 2026-11-05; buy link https://www.subaru.com/vehicles/uncharted/2027.html per https://www.subaru.com/vehicles/uncharted/2027.html (2026-11-05)",
+   "specs": {
+    "configs": 1.0,
+    "kwh100": 25.6644,
+    "month": 47.0,
+    "penalty": 0.0,
+    "range": 308.0
+   }
+  },
+  {
+   "best_for": "a longer rated range than this page's average",
+   "best_for_key": "range",
+   "brand": "Audi",
+   "id": "audi-a6-e-tron-ultra-2027",
+   "name": "Audi A6 e-tron ultra (2027)",
+   "rank": 7,
+   "score": 87.8,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "seller": "Audi",
+    "source": "https://www.audiusa.com/en/models/a6-e-tron/a6-sportback-e-tron/2027/overview/",
+    "url": "https://www.audiusa.com/en/models/a6-e-tron/a6-sportback-e-tron/2027/overview/"
+   },
+   "spec_source": "EPA/DOE fueleconomy.gov Vehicle Fuel Economy Data (vehicles.csv, battery-electric, model year 2025 and later), record 50369, retrieved 2026-11-05; buy link https://www.audiusa.com/en/models/a6-e-tron/a6-sportback-e-tron/2027/overview/ per https://www.audiusa.com/en/models/a6-e-tron/a6-sportback-e-tron/2027/overview/ (2026-11-05)",
+   "specs": {
+    "configs": 2.0,
+    "kwh100": 26.463,
+    "month": 48.0,
+    "penalty": 3.878,
+    "range": 395.0
+   }
+  },
+  {
+   "brand": "Lexus",
+   "id": "lexus-rz-350e-fwd-18-inch-wheels-2026",
+   "name": "Lexus RZ 350e FWD (18 inch wheels, 2026)",
+   "rank": 8,
+   "score": 86.2,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "note": "Maker model page, checked 2026-11-05; it does not show this trim or wheel size, which come from the EPA record.",
+    "seller": "Lexus",
+    "source": "https://www.lexus.com/electric-vehicles",
+    "url": "https://www.lexus.com/electric-vehicles"
+   },
+   "spec_source": "EPA/DOE fueleconomy.gov Vehicle Fuel Economy Data (vehicles.csv, battery-electric, model year 2025 and later), record 50291, retrieved 2026-11-05; buy link https://www.lexus.com/electric-vehicles per https://www.lexus.com/electric-vehicles (2026-11-05)",
+   "specs": {
+    "configs": 4.0,
+    "kwh100": 26.5957,
+    "month": 48.0,
+    "penalty": 4.4043,
+    "range": 301.0
+   }
+  },
+  {
+   "best_for": "a longer rated range than this page's average",
+   "best_for_key": "range",
+   "brand": "Mercedes-Benz",
+   "id": "mercedes-benz-cla250-plus-with-eq-tech-r22-2027",
+   "name": "Mercedes-Benz CLA250 Plus with EQ Tech (R22, 2027)",
+   "rank": 9,
+   "score": 85.9,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "seller": "Mercedes-Benz USA",
+    "source": "https://www.mbusa.com/en/vehicles/model/cla/sedan/cla250e",
+    "url": "https://www.mbusa.com/en/vehicles/model/cla/sedan/cla250e"
+   },
+   "spec_source": "EPA/DOE fueleconomy.gov Vehicle Fuel Economy Data (vehicles.csv, battery-electric, model year 2025 and later), record 50365, retrieved 2026-11-05; buy link https://www.mbusa.com/en/vehicles/model/cla/sedan/cla250e per https://www.mbusa.com/en/vehicles/model/cla/sedan/cla250e (2026-11-05)",
+   "specs": {
+    "configs": 2.0,
+    "kwh100": 27.0,
+    "month": 49.0,
+    "penalty": 4.0,
+    "range": 374.0
+   }
+  },
+  {
+   "brand": "Lexus",
+   "id": "lexus-es-350e-19-inch-wheels-2026",
+   "name": "Lexus ES 350e (19 inch Wheels, 2026)",
+   "rank": 10,
+   "score": 85.1,
+   "sold_as": {
+    "as_of": "2026-11-05",
+    "note": "Maker model page, checked 2026-11-05; it does not show this trim or wheel size, which come from the EPA record.",
+    "seller": "Lexus",
+    "source": "https://www.lexus.com/models/ES",
+    "url": "https://www.lexus.com/models/ES"
+   },
+   "spec_source": "EPA/DOE fueleconomy.gov Vehicle Fuel Economy Data (vehicles.csv, battery-electric, model year 2025 and later), record 50450, retrieved 2026-11-05; buy link https://www.lexus.com/models/ES per https://www.lexus.com/models/ES (2026-11-05)",
+   "specs": {
+    "configs": 2.0,
+    "kwh100": 27.0,
+    "month": 49.0,
+    "penalty": 0.5209,
+    "range": 307.0
+   }
+  }
+ ],
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "method": "We kept every battery-electric model of model year 2025 or later in the EPA and DOE fueleconomy.gov data, listed each model once in its most efficient EPA-rated configuration of any model year in the data, and ranked on the EPA combined kWh per 100 miles. Because the EPA rates every wheel and trim configuration separately, the spread to the model's least efficient configuration is shown. Cost assumes 1,000 miles a month (our assumption) at the EIA U.S. average residential price, charged at home. Efficiency and range are EPA label figures, not our tests; real use varies with temperature, speed and load, and size and performance change the figure. We did not test any vehicle. The list mixes body styles and sizes, and a large SUV and a small sedan differ in efficiency mostly because of size, so compare within a class rather than across the whole list. A model that appears only as a model-year-2025 row, such as the Hyundai Ioniq 6 Standard Range, may no longer be sold new.",
+ "name": "The most efficient electric cars, ranked by EPA kWh per 100 miles with the monthly cost to charge at home",
+ "next_refresh": "2026-12-05",
+ "publisher": "kWh Ranked",
+ "scoring": "each value scored against the best on the page (best = 1), times its weight; total out of 100",
+ "selection": {
+  "best": 23.141,
+  "cut": 27.0,
+  "decimals": 1,
+  "excluded": [
+   {
+    "filter": "one row per make + baseModel (newest model year, best configuration)",
+    "n": 727,
+    "why": "each model is shown a single time, in its most efficient EPA-rated configuration of any model year in the data, with the model year in its name; the gap to its least efficient configuration with the same drive type is shown beside it, so wheel and trim variants do not fill the list"
+   }
+  ],
+  "label": "Energy use",
+  "listed": 10,
+  "listings": 91,
+  "merge": "listings with identical values on this page's 5 criteria, across brands",
+  "pool": 91,
+  "pool_unit": "distinct certified products",
+  "tied_beyond_cut": 0,
+  "unit": "kWh/100 mi"
+ },
+ "sources": [
+  "https://www.fueleconomy.gov/feg/download.shtml",
+  "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a"
+ ],
+ "updated": "2026-11-05",
+ "url": "https://kwhranked.com/most-efficient-electric-cars/",
+ "why_first": {
+  "criteria": [
+   {
+    "difference": 4.5,
+    "first_points": 95.0,
+    "first_value": 23.141,
+    "key": "kwh100",
+    "label": "Energy use",
+    "second_points": 90.5,
+    "second_value": 24.3033,
+    "spread_points": 13.6,
+    "unit": "kWh/100 mi",
+    "weight_pct": 95.0
+   },
+   {
+    "difference": 1.2,
+    "first_points": 5.0,
+    "first_value": 420.0,
+    "key": "range",
+    "label": "Rated range",
+    "second_points": 3.8,
+    "second_value": 321.0,
+    "spread_points": 2.1,
+    "unit": "mi",
+    "weight_pct": 5.0
+   },
+   {
+    "difference": 0.0,
+    "first_points": 0.0,
+    "first_value": 42.0,
+    "key": "month",
+    "label": "Home charging cost per month",
+    "second_points": 0.0,
+    "second_value": 44.0,
+    "spread_points": 0.0,
+    "unit": "USD",
+    "weight_pct": 0.0
+   },
+   {
+    "difference": 0.0,
+    "first_points": 0.0,
+    "first_value": 2.9607,
+    "key": "penalty",
+    "label": "Spread across this model's configurations",
+    "second_points": 0.0,
+    "second_value": 1.3451,
+    "spread_points": 0.0,
+    "unit": "kWh/100 mi",
+    "weight_pct": 0.0
+   },
+   {
+    "difference": 0.0,
+    "first_points": 0.0,
+    "first_value": 2.0,
+    "key": "configs",
+    "label": "Variants merged into this row",
+    "second_points": 0.0,
+    "second_value": 4.0,
+    "spread_points": 0.0,
+    "unit": "",
+    "weight_pct": 0.0
+   }
+  ],
+  "deciding": {
+   "computed": false,
+   "first_value": 23.141,
+   "key": "kwh100",
+   "label": "Energy use",
+   "retrieved": "2026-11-05",
+   "second_value": 24.3033,
+   "source": "https://www.fueleconomy.gov/feg/download.shtml"
+  },
+  "first": "Lucid Air Pure RWD with 19 inch wheels (2027)",
+  "first_score": 100.0,
+  "flip": null,
+  "headline_leader": null,
+  "margin": 5.7,
+  "second": "Tesla Model 3 Standard RWD (2026)",
+  "second_score": 94.3,
+  "ties": []
+ }
+}
