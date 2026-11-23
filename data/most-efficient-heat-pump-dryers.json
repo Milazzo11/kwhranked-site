@@ -57,6 +57,44 @@
    "weight": 0
   }
  ],
+ "dataset_stats": {
+  "vented_cef": {
+   "filters": [
+    {
+     "as": "text",
+     "field": "product_type",
+     "op": "==",
+     "value": "Electric Standard Vented"
+    }
+   ],
+   "label": "median ENERGY STAR certified CEF of full-size electric vented dryers (the comparison in the FAQ)",
+   "median_of": "combined_energy_factor_cef",
+   "n": 363,
+   "round": 2,
+   "unit": "lb/kWh",
+   "value": 3.93
+  },
+  "ventless_nohp_cef": {
+   "filters": [
+    {
+     "as": "text",
+     "field": "product_type",
+     "op": "==",
+     "value": "Electric Standard Ventless"
+    },
+    {
+     "field": "heat_pump_technology",
+     "op": "is_empty"
+    }
+   ],
+   "label": "median ENERGY STAR certified CEF of full-size electric ventless dryers whose record carries no heat pump flag (the FAQ comparison)",
+   "median_of": "combined_energy_factor_cef",
+   "n": 22,
+   "round": 2,
+   "unit": "lb/kWh",
+   "value": 4.5
+  }
+ },
  "filters": [
   {
    "field": "combined_energy_factor_cef",
@@ -249,7 +287,7 @@
    {
     "filter": "no heat pump flag in the certification record",
     "n": 21,
-    "why": "heat pump dryers only: 'ventless' is not the same thing (ventless dryers without a heat pump typically certify far lower, a median CEF of 2.68 against 3.93 for vented dryers), so the heat pump flag in the certification record is the filter, and hybrid heat pump models (a different design, median CEF 4.5) are left out"
+    "why": "heat pump dryers only: 'ventless' is not the same thing (full-size ventless dryers without the heat pump flag certify far below the heat pump models here: see the FAQ), so the heat pump flag in the certification record is the filter, and hybrid heat pump models (a different design that also certifies below them) are left out"
    },
    {
     "filter": "being sold in Canada only",

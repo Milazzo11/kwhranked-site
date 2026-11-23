@@ -14,6 +14,7 @@
   "EIA Electric Power Monthly",
   "EIA natural gas residential prices"
  ],
+ "license": "https://creativecommons.org/licenses/by/4.0/",
  "rows": [
   {
    "rank": 1,
